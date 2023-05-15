@@ -1,0 +1,14 @@
+[package]
+name = 'swap'
+version = '1.0.0'
+
+[addresses]
+token_swap = "f73f20e76ab9ac8cd6fae2fd1a3e3b93f63fc5bbfcafec7a548cc2b75b08ab8b"
+dev = "a3212fdd84d69289d5645666cf38c5974ba6c30004c4631dbfd20bc9e72e27fb"
+default_admin = "f47d3ec3e183bf933e147306739ec493e6420fbad3e309ccb43b152eb0151946"
+zero = "0000000000000000000000000000000000000000000000000000000000000000"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
